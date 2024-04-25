@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DescubrirPersonas</title>
+
+    <style>
+*{
+    font-family: cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+header {
+    background: black;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+footer {
+    background: #000000;
+    color: #fff;
+    padding:15px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.banner {
+    background: url(IMAGENES/amigos-van.jpg) no-repeat center center/cover;
+    color: #fff;
+    padding: 10rem 0;
+    font-size: x-large;
+}
+.banner img{
+    border-radius: 50%;
+    width: 100px;
+}
+.texth1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.galerypeople{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 70px;
+    gap: 20px;
+}
+.fotosperfil{
+    background-position: center; 
+    background-size: cover; 
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    box-shadow: 2px 2px 9px rgb(163, 159, 159);
+}
+.containergalerypeople{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Inicio</a></li>
+                    <li><a href="#">Viajes</a></li>
+                    <li><a href="#">Personas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <img src="IMAGENES/Blue and White Modern Travel Logo.gif" alt="">
+        </div>
+        <div class="texth1">
+            <h1>Conoce a Nuevas Personas</h1>
+        </div>
+    </section>
+    <section class="galerypeople">
+        <div class="containergalerypeople">
+            <img src="IMAGENES/amigas-playa.jpg" alt="" class="fotosperfil">
+            <h3>Lauri</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laborum sapiente possimus eos incidunt aliquam nisi nostrum quidem, odit labore commodi eum nam fugiat ipsum blanditiis perspiciatis vitae. Neque, aliquam.</p>
+        </div>
+        <div class="containergalerypeople">
+            <img src="IMAGENES/amigas-playa.jpg" alt="" class="fotosperfil">
+            <h3>Lauri</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laborum sapiente possimus eos incidunt aliquam nisi nostrum quidem, odit labore commodi eum nam fugiat ipsum blanditiis perspiciatis vitae. Neque, aliquam.</p>
+        </div>
+        <div class="containergalerypeople">
+            <img src="IMAGENES/amigas-playa.jpg" alt="" class="fotosperfil">
+            <h3>Lauri</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laborum sapiente possimus eos incidunt aliquam nisi nostrum quidem, odit labore commodi eum nam fugiat ipsum blanditiis perspiciatis vitae. Neque, aliquam.</p>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tour Buddles. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
