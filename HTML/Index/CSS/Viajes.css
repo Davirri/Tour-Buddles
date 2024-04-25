@@ -1,0 +1,102 @@
+
+*{
+    font-family: cursive;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+header {
+    background: black;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    z-index: 9999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background: url(https://www.expreso.info/files/2020-04/Felices_Vacaciones.jpg) no-repeat center center/cover;
+    color: #fff;
+    padding: 10rem 0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.introduccion{
+    padding: 40px;
+    background-color: beige;
+    font-size: larger;
+}
+
+.travel {
+    text-align: center;
+}
+
+.travel-card {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+
+.travel-card img {
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 5rem;
+}
+
+
+footer {
+    background: #000000;
+    color: #fff;
+    padding:15px;
+    text-align: center;
+}
+
+ .buttonhome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.buttonhome img{
+    width: 80px;
+    border-radius: 50%;
+}
+.texto{
+    box-shadow:black 0 0 15px;
+    border-radius: 15px;
+    margin-top: 2rem;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/21758774/pexels-photo-21758774/free-photo-of-naturaleza-volador-punto-de-referencia-viaje.jpeg?auto=compress&cs=tinysrgb&w=300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+.texto h2,.texto p {
+    padding: 10px;
+}

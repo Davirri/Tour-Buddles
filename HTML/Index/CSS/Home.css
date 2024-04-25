@@ -1,9 +1,9 @@
-
 *{
     font-family: cursive;
 }
 body {
     margin: 0;
+
 }
 
 .container {
@@ -20,7 +20,6 @@ header {
     position: fixed;
     width: 100%;
     padding: 15px;
-    z-index: 9999;
 }
 
 nav ul {
@@ -43,11 +42,40 @@ nav ul li a {
     background: url(https://www.expreso.info/files/2020-04/Felices_Vacaciones.jpg) no-repeat center center/cover;
     color: #fff;
     padding: 10rem 0;
-    font-size: x-large;
 }
 .banner img{
     border-radius: 50%;
     width: 250px;
+}
+.introduccion{
+    padding: 40px;
+    background-color: beige;
+    font-size: larger;
+}
+.opinon{
+    background-color: rgb(235, 235, 235);
+}
+.opinon h2{
+    text-align: center;
+    padding:20px;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+    margin-bottom: 15px;
+}
+
+.person h3 {
+    margin-top: 0;
+    text-align: center;
 }
 
 .travel {
@@ -88,21 +116,13 @@ nav ul li a {
     opacity: 1;
 }
 
-
 footer {
     background: #000000;
     color: #fff;
     padding:15px;
     text-align: center;
 }
-
- .buttonhome {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-}
-.buttonhome img{
-    width: 80px;
-    border-radius: 50%;
+h2 a{
+    text-decoration: none;
+    color: blue;
 }
