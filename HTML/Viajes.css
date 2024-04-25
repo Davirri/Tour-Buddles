@@ -1,9 +1,9 @@
+
 *{
     font-family: cursive;
 }
 body {
     margin: 0;
-
 }
 
 .container {
@@ -12,9 +12,7 @@ body {
     margin: 0 auto;
     justify-content: space-around;
 }
-.h2{
-    text-decoration: none;
-}
+
 
 header {
     background: black;
@@ -22,6 +20,7 @@ header {
     position: fixed;
     width: 100%;
     padding: 15px;
+    z-index: 9999;
 }
 
 nav ul {
@@ -49,32 +48,6 @@ nav ul li a {
 .banner img{
     border-radius: 50%;
     width: 250px;
-}
-.introduccion{
-    padding: 40px;
-    background-color: beige;
-}
-.opinon h2{
-    text-align: center;
-    padding:20px;
-}
-.person{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-}
-
-.person img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;  
-    margin-bottom: 15px;
-}
-
-.person h3 {
-    margin-top: 0;
-    text-align: center;
 }
 
 .travel {
@@ -115,13 +88,21 @@ nav ul li a {
     opacity: 1;
 }
 
+
 footer {
     background: #000000;
     color: #fff;
     padding:15px;
     text-align: center;
 }
-h2 a{
-    text-decoration: none;
-    color: blue;
+
+ .buttonhome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.buttonhome img{
+    width: 80px;
+    border-radius: 50%;
 }
