@@ -11,7 +11,9 @@ body {
     margin: 0 auto;
     justify-content: space-around;
 }
-
+h2{
+    text-decoration: none;
+}
 
 header {
     background: black;
@@ -48,23 +50,23 @@ nav ul li a {
     width: 250px;
 }
 
-.features {
+.opinion {
     padding: 50px 0;
     background:  #f2f2f2;
     
 }
-.features h2{
+.opinon h2{
     text-align: center;
     padding:20px;
 }
 
-.feature img {
+.person img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-.feature h3 {
+.person h3 {
     margin-top: 0;
 }
 
