@@ -68,9 +68,8 @@ nav ul li a {
 }
 
 .banner {
-    background: url(https://www.expreso.info/files/2020-04/Felices_Vacaciones.jpg) no-repeat center center/cover;
-    color: #fff;
-    padding: 10rem 0;
+    background: url(https://i.pinimg.com/originals/29/05/60/29056090ce2905dd955371e1e0478259.jpg) no-repeat center center/cover;
+    padding: 15rem 0;
 }
 .buttonhome {
     position: absolute;
@@ -130,6 +129,26 @@ nav ul li a {
     height: 100%;
     border-radius: 15px;
 }
+.person span{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 100ch;
+    animation: typing 8s steps(90) infinite alternate,
+    blink .8s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0;}
+    to{width: 100%;}
+    
+}@keyframes blink{
+50%{
+    border-color: transparent;
+}
+}
+
 
 .texto{
     width: 100%;
