@@ -28,6 +28,8 @@ a{
     font-weight: 900;
     font-size: 20PX;
     padding: 0px;
+    text-decoration: none;
+    color: #000000;
 }
 
 body {
